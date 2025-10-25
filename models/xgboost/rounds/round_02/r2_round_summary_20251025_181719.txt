@@ -1,0 +1,23 @@
+==============================
+XGBOOST ROUND SUMMARY
+==============================
+Round ID: round_02
+Prefixo: r2
+Timestamp: 20251025_181719
+
+🔧 Modelo: XGBoostClassifier
+Treino: 656 amostras
+Validação: 164 amostras
+
+📊 MÉTRICAS
+accuracy: 0.939
+precision: 0.9481
+recall: 0.9771
+f1_score: 0.9624
+auc_roc: 0.9655
+log_loss: 0.1964
+train_accuracy: 0.9787
+
+🏋️‍♂️ Best Iteration: 107
+Threshold: 0.55
+💾 Modelo: /content/drive/MyDrive/AI-HealthCare/EHR/heart-disease-fairness/models/xgboost/rounds/round_02/r2_xgb_best_model_20251025_181719.json

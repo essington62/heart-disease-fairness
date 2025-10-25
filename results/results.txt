@@ -1,0 +1,4 @@
+timestamp	prefix	round	model	accuracy	precision	recall	f1_score	auc_roc	log_loss	train_accuracy	train_samples	test_samples	best_iteration	model_path
+20251025_180947	r1	round_01	xgboost	0.9268	0.9161	1.0	0.9562	0.9635	0.2599	0.9329	656	164	38	/content/drive/MyDrive/AI-HealthCare/EHR/heart-disease-fairness/models/xgboost/rounds/round_01/r1_xgb_best_model_20251025_180947.json
+20251025_181719	r2	round_02	xgboost	0.939	0.9481	0.9771	0.9624	0.9655	0.1964	0.9787	656	164	107	0.55	/content/drive/MyDrive/AI-HealthCare/EHR/heart-disease-fairness/models/xgboost/rounds/round_02/r2_xgb_best_model_20251025_181719.json
+20251025_182208	r3	round_03	xgboost	0.9707	0.9708	0.9925	0.9815	0.9959	0.1065	0.9927	1364	341	115	0.55	/content/drive/MyDrive/AI-HealthCare/EHR/heart-disease-fairness/models/xgboost/rounds/round_03/r3_xgb_best_model_20251025_182208.json

@@ -1,0 +1,7 @@
+dataset_shape: (303, 16)
+num_missing_values: 0
+num_features: 16
+numeric_features: ['age', 'trestbps', 'chol', 'thalach', 'oldpeak', 'ca', 'num', 'label', 'age_risk_score']
+categorical_features: ['sex', 'cp', 'fbs', 'restecg', 'exang', 'slope', 'thal']
+target_columns: ['num', 'label']
+memory_usage_kb: 24.75
