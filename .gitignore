@@ -1,0 +1,45 @@
+# ===========================================
+# 🔒 GOVERNANÇA E ARTEFATOS — NÃO COMMITAR
+# ===========================================
+
+# Modelos e rounds
+models/
+*/rounds/*
+*.json
+
+# Resultados e logs pesados
+results/*.png
+results/*.html
+results/*.csv
+results/*.xlsx
+results/*.log
+results/*_summary_*.txt
+results/*_report_*.txt
+results/*_confusion_matrix_*.txt
+results/*_shap_*.txt
+results/*_analysis_*.txt
+
+# Dados brutos e derivados
+data/heart_resampled_*.csv
+data/splits/*.csv
+data/raw/
+data/interim/
+data/processed/
+
+# Cache, compilados e notebooks temporários
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+*.pyo
+.DS_Store
+*.swp
+
+# Arquivos de sistema / temporários
+*.tmp
+*.bak
+*.log
+*.out
+*.zip
+*.gz
+*.tar
+*.ipynb_checkpoints/

@@ -1,0 +1,4 @@
+timestamp	prefix	round	model	accuracy	precision	recall	f1_score	auc_roc	log_loss	train_accuracy	train_samples	test_samples	best_iteration	adjustments	objective	tree_method	n_estimators	learning_rate	max_depth	subsample	colsample_bytree	scale_pos_weight	early_stopping_rounds
+20251026_211038	r1	round_01	xgboost	0.9268	0.9161	1.0	0.9562	0.9635	0.2599	0.9329	656	164	38	Baseline inicial com SMOTENC balanceado	binary:logistic	hist	400	0.03	4	0.8	0.8	1.2	30
+20251026_211107	r2	round_02	xgboost	0.939	0.9481	0.9771	0.9624	0.9655	0.1964	0.9787	656	164	107	nova rodada ajustando parametros scale_pos_weight = 1.8, max_depth = 5, threshold = 0.55	binary:logistic	hist	400	0.03	5	0.8	0.8	1.8	30
+20251026_211420	r3	round_03	xgboost	1.0	1.0	1.0	1.0	1.0	0.058892192817684735	0.9927	1364	341	115	aumento na quantidade de registros do treino+oversampling direcionado em FP e FN	binary:logistic	hist	400	0.03	5	0.8	0.8	1.8	30
