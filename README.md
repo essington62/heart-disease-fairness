@@ -106,7 +106,5 @@ As part of the model analysis stage, the **Aequitas framework** was used to asse
 💬 Results indicate **no significant bias** between demographic groups,  
 demonstrating a fair and balanced classifier.
 
----
 
-## 📂 Repository Structure
 
